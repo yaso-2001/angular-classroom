@@ -1,0 +1,121 @@
+
+/* Navbar container */
+:host {
+  display: block;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background: #ffffff !important;
+  color: #202a44;
+  border: 1px solid #e8eaf3;
+  border-radius: 16px;
+  padding: 16px 24px;
+  box-shadow: 0 5px 20px rgba(31, 41, 55, 0.07);
+}
+
+/* Brand */
+.navbar-brand {
+  color: #252b48 !important;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Navigation links */
+.navbar-nav .nav-link {
+  color: #64708a !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 9px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #6254e7 !important;
+  background: #f1f0ff;
+}
+
+.navbar-nav .nav-link.active {
+  color: #6254e7 !important;
+  background: #f1f0ff;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.disabled {
+  color: #b8bdca !important;
+}
+
+/* Toggler button */
+.navbar-toggler {
+  border: 1px solid #e1e4ef !important;
+  border-radius: 10px;
+  padding: 9px 12px;
+  background: #f7f8fc !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(25%) sepia(30%) saturate(1500%) hue-rotate(220deg);
+}
+
+/* Drawer */
+.drawer {
+  background: #ffffff !important;
+  color: #202a44 !important;
+  border: none;
+  box-shadow: -8px 0 30px rgba(31, 41, 55, 0.12);
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px;
+  border-bottom: 1px solid #edf0f6;
+}
+
+.drawer-title {
+  color: #252b48;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.drawer-body {
+  padding: 22px;
+}
+
+/* Search input */
+.form-control {
+  border: 1px solid #e1e4ef;
+  border-radius: 9px;
+  padding: 10px 14px;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #6254e7;
+  box-shadow: 0 0 0 3px rgba(98, 84, 231, 0.12);
+}
+
+/* Search button */
+.btn-outline {
+  background: #6254e7 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 9px;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #4338ca !important;
+}
+
+/* Drawer close button */
+.btn-close {
+  box-shadow: none !important;
+}
